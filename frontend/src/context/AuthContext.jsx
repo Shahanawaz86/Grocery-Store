@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const API_URL = 'http://localhost:5000/api/auth';
+const API_URL = 'https://grocery-store-1-fdge.onrender.com/api/auth';
 
 const AuthContext = createContext();
 
